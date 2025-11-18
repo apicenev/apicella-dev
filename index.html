@@ -1,191 +1,225 @@
 <!doctype html>
 <html lang="en" class="h-full">
-  <head>
-    <meta charset="utf-8" />
-    <title>Nevio Apicella – Software Engineer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="styles.css" rel="stylesheet" />
-  </head>
-  <body class="min-h-full bg-slate-950 text-slate-100">
-    <!-- Wrapper -->
-    <div class="min-h-screen flex flex-col">
-      <!-- Top navigation -->
-      <header class="sticky top-0 z-20 border-b border-slate-800 backdrop-blur bg-slate-950/80">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 lg:px-16 h-16 flex items-center justify-between">
-          <div class="font-semibold tracking-tight">
-            <span class="text-sky-400">N</span>evio Apicella
-          </div>
-          <nav class="hidden sm:flex gap-6 text-sm text-slate-300">
-            <a href="#about" class="hover:text-sky-400">About</a>
-            <a href="#skills" class="hover:text-sky-400">Skills</a>
-            <a href="#projects" class="hover:text-sky-400">Projects</a>
-            <a href="#contact" class="hover:text-sky-400">Contact</a>
-          </nav>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Nevio Apicella – Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body class="min-h-full bg-slate-950 text-slate-100">
+  <!-- Wrapper -->
+  <div class="min-h-screen flex flex-col">
+    <!-- Top navigation -->
+    <header class="sticky top-0 z-20 border-b border-slate-800 backdrop-blur bg-slate-950/80">
+      <div class="max-w-5xl mx-auto px-4 md:px-8 lg:px-16 h-16 flex items-center justify-between">
+        <div class="font-semibold tracking-tight">
+          <span class="text-sky-400">N</span>evio Apicella
         </div>
-      </header>
+        <nav class="hidden sm:flex gap-6 text-sm text-slate-300">
+          <a href="#about" class="hover:text-sky-400">About</a>
+          <a href="#skills" class="hover:text-sky-400">Skills</a>
+          <a href="#projects" class="hover:text-sky-400">Projects</a>
+          <a href="#contact" class="hover:text-sky-400">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-      <!-- Main content -->
-      <main class="flex-1">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 lg:px-16 py-10 space-y-24">
-          <!-- Hero -->
-          <section id="hero" class="pt-8 md:pt-16">
-            <div class="flex flex-col md:flex-row items-start md:items-center gap-10">
-              <div class="flex-1 space-y-4">
-                <p class="text-xs uppercase tracking-[0.25em] text-sky-400">
-                  Software Engineer
-                </p>
-                <h1 class="text-3xl md:text-5xl font-bold leading-tight">
-                  Hi, I’m Nevio.
-                </h1>
-                <p class="text-slate-300 text-sm md:text-base max-w-xl">
-                  I’m a software engineer building modern applications and continually improving my skills through real, 
-                  hands-on projects. This website documents my learning journey, the tools I work with, and the projects I create along the way.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-3">
-                  <a
-                    href="#projects"
-                    class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-medium bg-sky-500 hover:bg-sky-400"
-                  >
-                    View Projects
-                  </a>
-                  <a
-                    href="#contact"
-                    class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-medium border border-slate-700 hover:border-sky-400"
-                  >
-                    Contact Me
-                  </a>
-                </div>
-              </div>
-              <div class="flex-1 w-full max-w-sm md:max-w-md mx-auto md:mx-0">
-                <div class="aspect-square rounded-3xl border border-slate-800 bg-gradient-to-br from-sky-500/20 via-purple-500/15 to-blue-500/10 flex items-center justify-center text-xs text-slate-300 px-6 text-center">
-                  Future place for a photo, logo or a simple code preview.
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!-- About -->
-          <section id="about" class="space-y-4">
-            <h2 class="text-xl md:text-2xl font-semibold">About</h2>
-            <p class="text-slate-300 text-sm md:text-base leading-relaxed">
-              About Text
-            </p>
-          </section>
-
-          <!-- Skills -->
-          <section id="skills" class="space-y-4">
-            <h2 class="text-xl md:text-2xl font-semibold">Skills</h2>
-            <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 text-sm">
-              <div class="rounded-xl border border-slate-800 p-4">
-                <h3 class="font-medium mb-2">Backend</h3>
-                <ul class="space-y-1 text-slate-300">
-                  <li>Java</li>
-                  <li>REST APIs</li>
-                </ul>
-              </div>
-              <div class="rounded-xl border border-slate-800 p-4">
-                <h3 class="font-medium mb-2">Frontend</h3>
-                <ul class="space-y-1 text-slate-300">
-                  <li>HTML, CSS, Tailwind</li>
-                  <li>JS / TypeScript basics</li>
-                  <li>Angular / React</li>
-                </ul>
-              </div>
-              <div class="rounded-xl border border-slate-800 p-4">
-                <h3 class="font-medium mb-2">Other</h3>
-                <ul class="space-y-1 text-slate-300">
-                  <li>Git & GitHub</li>
-                  <li>SQL & Hibernate</li>
-                  <li>CI/CD basics</li>
-                  <li>Confluence / Jira</li>
-                  <li>Scrum</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-          <!-- Projects -->
-          <section id="projects" class="space-y-4">
-            <h2 class="text-xl md:text-2xl font-semibold">Projects</h2>
-            <p class="text-slate-300 text-sm md:text-base">
-              A selection of projects I’m working on or planning to build.
-            </p>
-
-            <div class="space-y-4">
-              <!-- Project 1: Book Tracking App -->
-              <article class="rounded-xl border border-slate-800 p-4 md:p-5">
-                <h3 class="text-lg font-semibold mb-1">BookTrackr – Reading & Knowledge Hub</h3>
-                <p class="text-slate-300 text-sm mb-3">
-                  A web app to track books, document structured summaries, capture
-                  action items and get recommendations for what to read next.
-                </p>
-                <div class="flex flex-wrap items-center gap-2 mb-3 text-xs text-slate-400">
-                  <span class="px-2 py-1 rounded-full border border-slate-700">Web App</span>
-                  <span class="px-2 py-1 rounded-full border border-slate-700">Personal Project</span>
-                </div>
-                <!--
-                                <a
-                  href="https://github.com/USERNAME/REPO" 
-                  class="text-sm text-sky-400 hover:text-sky-300 underline underline-offset-4"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View on GitHub
+    <!-- Main content -->
+    <main class="flex-1">
+      <div class="max-w-5xl mx-auto px-4 md:px-8 lg:px-16 py-10 space-y-24">
+        <!-- Hero -->
+        <section id="hero" class="pt-8 md:pt-16">
+          <div class="flex flex-col md:flex-row items-start md:items-center gap-10">
+            <div class="flex-1 space-y-4">
+              <p class="text-xs uppercase tracking-[0.25em] text-sky-400">
+                Software Engineer
+              </p>
+              <h1 class="text-3xl md:text-5xl font-bold leading-tight">
+                Hi, I’m Nevio.
+              </h1>
+              <p class="text-slate-300 text-sm md:text-base max-w-xl">
+                I’m a software engineer building modern applications and continually improving my skills through real,
+                hands-on projects. This website documents my learning journey, the tools I work with, and the projects I
+                create along the way.
+              </p>
+              <div class="flex flex-col sm:flex-row gap-3">
+                <a href="#projects"
+                  class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-medium bg-sky-500 hover:bg-sky-400">
+                  View Projects
                 </a>
-                -->
-
-              </article>
-
-              <!-- Placeholder for future projects -->
-              <article class="rounded-xl border border-slate-800 p-4 md:p-5">
-                <h3 class="text-lg font-semibold mb-1">Future Project</h3>
-                <p class="text-slate-300 text-sm mb-3">
-                  Reserved space for the next application (for example a finance / stocks
-                  dashboard or another portfolio project).
-                </p>
-                <span class="inline-flex px-2 py-1 rounded-full border border-dashed border-slate-700 text-xs text-slate-400">
-                  Coming soon
-                </span>
-              </article>
+                <a href="#contact"
+                  class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-medium border border-slate-700 hover:border-sky-400">
+                  Contact Me
+                </a>
+              </div>
             </div>
-          </section>
-
-          <!-- Contact -->
-          <section id="contact" class="space-y-4">
-            <h2 class="text-xl md:text-2xl font-semibold">Contact</h2>
-            <p class="text-slate-300 text-sm md:text-base">
-              The easiest way to reach me is by email or via LinkedIn.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-3 text-sm">
-              <a
-                href="mailto:your@email.com"
-                class="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-slate-700 hover:border-sky-400"
-              >
-                nevio.apicella@gmail.com
-              </a>
-              <a
-                href="https://www.linkedin.com/in/nevio-apicella-3890bb2b2/"
-                target="_blank"
-                rel="noreferrer"
-                class="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-slate-700 hover:border-sky-400"
-              >
-                LinkedIn Profile
-              </a>
+            <div class="flex-1 w-full max-w-sm md:max-w-md mx-auto md:mx-0">
+              <div class="aspect-square rounded-3xl bg-gradient-to-br flex items-center justify-center p-6 md:p-8">
+                <img src="assets/profile.jpg" alt="Profile picture of Nevio Apicella"
+                  class="rounded-[2rem] w-full h-full object-cover shadow-xl" />
+              </div>
             </div>
-          </section>
-        </div>
-      </main>
+          </div>
+        </section>
 
-      <!-- Footer -->
-      <footer class="border-t border-slate-800 py-4">
-        <div class="max-w-5xl mx-auto px-4 md:px-8 lg:px-16 text-xs text-slate-500 flex justify-between">
-          <span>© <span id="year"></span> Nevio Apicella</span>
-          <span>apicella.dev</span>
-        </div>
-        <script>
-          document.getElementById('year').textContent = new Date().getFullYear();
-        </script>
-      </footer>
-    </div>
-  </body>
+        <!-- About -->
+        <section id="about" class="space-y-4">
+          <h2 class="text-xl md:text-2xl font-semibold">About</h2>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+            I’m driven by the idea of getting a little better every day – as an engineer and as a person.
+            In my day job I work as a software engineer in the process automation field, where I build and
+            maintain applications across both frontend and backend. I enjoy understanding complex domains,
+            turning them into clean architectures, and learning new technologies along the way.
+          </p>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+            Outside of work you’ll usually find me on the soccer field, reading books, working out,
+            or spending time with friends.
+          </p>
+        </section>
+        <!-- Skills -->
+        <section id="skills" class="space-y-4">
+          <h2 class="text-xl md:text-2xl font-semibold">Skills</h2>
+          <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 text-sm">
+            <!-- Backend -->
+            <div
+              class="rounded-2xl border border-slate-800 bg-slate-900/40 p-4 md:p-5 hover:border-sky-500/60 hover:bg-slate-900/70 transition">
+              <div class="flex items-center gap-3 mb-3">
+                <div class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10 text-sky-400">
+                  <svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true">
+                    <path d="M8 4L5 6v12l3 2M16 4l3 2v12l-3 2" fill="none" stroke="currentColor" stroke-width="1.6"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <h3 class="font-medium">Backend</h3>
+              </div>
+              <ul class="space-y-1.5 text-slate-300">
+                <li>Java</li>
+                <li>REST APIs</li>
+              </ul>
+            </div>
+            <!-- Frontend -->
+            <div
+              class="rounded-2xl border border-slate-800 bg-slate-900/40 p-4 md:p-5 hover:border-sky-500/60 hover:bg-slate-900/70 transition">
+              <div class="flex items-center gap-3 mb-3">
+                <div
+                  class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10 text-emerald-400">
+                  <svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true">
+                    <rect x="4" y="5" width="16" height="14" rx="2" ry="2" fill="none" stroke="currentColor"
+                      stroke-width="1.6" />
+                    <path d="M4 9h16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                  </svg>
+                </div>
+                <h3 class="font-medium">Frontend</h3>
+              </div>
+              <ul class="space-y-1.5 text-slate-300">
+                <li>HTML, CSS, PrimeFaces</li>
+                <li>JS / TypeScript basics</li>
+                <li>Angular / React</li>
+              </ul>
+            </div>
+            <div
+              class="rounded-2xl border border-slate-800 bg-slate-900/40 p-4 md:p-5 hover:border-sky-500/60 hover:bg-slate-900/70 transition">
+              <div class="flex items-center gap-3 mb-3">
+                <div
+                  class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-purple-500/10 text-purple-400">
+                  <svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true">
+                    <circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.6" />
+                    <path d="M4.9 8.4L6.3 7m11.4 0l1.4 1.4M7 17.7L5.6 16.3m12.8 0L17 17.7M12 4v2.1M12 17.9V20"
+                      fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <h3 class="font-medium">Other</h3>
+              </div>
+              <ul class="space-y-1.5 text-slate-300">
+                <li>Git & GitHub</li>
+                <li>SQL & Hibernate</li>
+                <li>CI/CD basics</li>
+                <li>Confluence / Jira</li>
+                <li>Scrum</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="space-y-4">
+          <h2 class="text-xl md:text-2xl font-semibold">Projects</h2>
+          <p class="text-slate-300 text-sm md:text-base">
+            A selection of projects I’m actively building and using to structure my learning journey.
+          </p>
+
+          <div class="space-y-4">
+            <!-- Project 1: BookTrackr -->
+            <article class="rounded-2xl border border-slate-800 bg-slate-900/40 p-4 md:p-5 hover:border-sky-500/60 hover:bg-slate-900/70 transition">
+              <div class="flex items-center gap-3 mb-2">
+                <div class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10 text-sky-400">
+                  <svg viewBox="0 0 24 24" class="h-5 w-5" aria-hidden="true">
+                    <path d="M6.5 5.5A2.5 2.5 0 0 1 9 3h9v15h-8.5A2.5 2.5 0 0 0 7 20.5v-13A2.5 2.5 0 0 1 9.5 5H18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <h3 class="text-lg font-semibold">BookTrackr – Reading &amp; Knowledge Hub</h3>
+              </div>
+              <p class="text-slate-300 text-sm md:text-base mb-3">
+                BookTrackr is a personal web application that transforms reading into a structured learning process.
+                Instead of only tracking which books are finished, it focuses on what I’ve learned, how I apply those
+                ideas in practice, and how my knowledge grows over time.
+              </p>
+              <p class="text-slate-300 text-sm md:text-base mb-3">
+                The app lets me manage my reading pipeline (wishlist → currently reading → finished), document key
+                insights in a structured way, and link each book to real projects (for example GitHub repositories)
+                where I
+                applied the concepts. A simple recommender will help decide what to read next based on interests and
+                previous books.
+              </p>
+              <div class="flex flex-wrap items-center gap-2 mb-1 text-xs text-slate-300">
+                <span class="px-2 py-1 rounded-full border border-sky-500/40 bg-sky-500/10 text-sky-300">Web App</span>
+                <span class="px-2 py-1 rounded-full border border-emerald-500/40 bg-emerald-500/10 text-emerald-300">Personal Project</span>
+                <span class="px-2 py-1 rounded-full border border-amber-500/40 bg-amber-500/10 text-amber-300">In Progress</span>
+              </div>
+
+              <!-- <a href="https://github.com/apicenev/booktrackr" class="mt-3 inline-flex text-sm text-sky-400 hover:text-sky-300 underline underline-offset-4" target="_blank" rel="noreferrer">
+                    View on GitHub
+                  </a>
+              -->
+            </article>
+          </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="space-y-4">
+          <h2 class="text-xl md:text-2xl font-semibold">Contact</h2>
+          <p class="text-slate-300 text-sm md:text-base">
+            The easiest way to reach me is by email or via LinkedIn.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-3 text-sm">
+            <a href="mailto:your@email.com"
+              class="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-slate-700 hover:border-sky-400">
+              nevio.apicella@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/nevio-apicella-3890bb2b2/" target="_blank" rel="noreferrer"
+              class="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-slate-700 hover:border-sky-400">
+              LinkedIn Profile
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-4">
+      <div class="max-w-5xl mx-auto px-4 md:px-8 lg:px-16 text-xs text-slate-500 flex justify-between">
+        <span>© <span id="year"></span> Nevio Apicella</span>
+        <span>apicella.dev</span>
+      </div>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </div>
+</body>
+
 </html>
