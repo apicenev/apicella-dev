@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .skill-card {
+    @apply rounded-2xl border border-slate-800 bg-slate-900/40 p-5
+      hover:border-sky-500/60 hover:bg-slate-900/70 transition;
+  }
+
+  .skill-card-icon {
+    @apply inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-800/80;
+  }
+
+  .skill-card-icon img {
+    @apply h-5 w-5;
+  }
+
+  .skill-tag {
+    @apply inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs border;
+  }
+
+  .skill-tag img {
+    @apply h-4 w-4;
+  }
+
+  .skill-tag-daily {
+    @apply border-sky-500/40 bg-sky-500/10 text-sky-200;
+  }
+
+  .skill-tag-comfortable {
+    @apply border-emerald-500/40 bg-emerald-500/10 text-emerald-200;
+  }
+
+  .skill-tag-learning {
+    @apply border-amber-500/40 bg-amber-500/10 text-amber-200;
+  }
+}
